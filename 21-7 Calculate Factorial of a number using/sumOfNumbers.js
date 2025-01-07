@@ -5,36 +5,37 @@
 for(let i = 1; i <=7; i++){
     console.log(i);
 } 
-*/
-/* Output:
+
+// Output:
 1
 2
 3
 4
 5
 6
-7 */
+7
 
 
-/*
+
 let sum = 0;
 for(let i = 1; i <=7; i++){
     sum = sum + i;
     console.log(i, sum);
 } 
-*/
-/* Output:
+
+// Output:
 1 1
 2 3
 3 6
 4 10
 5 15
 6 21
-7 28 */
+7 28
 
 
 // Converting into 'function'
 //Let’s walk through the function with an example input, say 'sumOfNumbers(5)':
+*/
 
 function sumOfNumbers(number) {
     let sum = 0;
@@ -51,4 +52,4 @@ sumOfNumbers(5);
 2 3
 3 6
 4 10
-5 15 */
+5 15 */     
