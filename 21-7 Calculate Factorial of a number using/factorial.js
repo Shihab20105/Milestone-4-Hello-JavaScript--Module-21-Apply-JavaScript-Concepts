@@ -21,10 +21,10 @@ Factorial is a function that multiplies a number by every number below it till 1
                                     
 5! = 5*4*3*2*1                      5! = 5*4!
                                     5! = 5*(5-1)!
-*/
 
 
-/* 
+
+ 
 function multiplicationNumbers(number){
     let result = 0;
     for(let i = 1; i <= 7; i++){
@@ -35,11 +35,11 @@ function multiplicationNumbers(number){
 
 const result = multiplicationNumbers(7); 
 console.log(result); 
-*/
+
 //Output: 0
 
 
-/* 
+
 function multiplicationNumbers(number){
     let result = 1;
     for(let i = 1; i <= 7; i++){
@@ -50,11 +50,11 @@ function multiplicationNumbers(number){
 
 const result = multiplicationNumbers(7); 
 console.log(result); 
-*/
+
 // Output: 5040
 
 
-/* 
+ 
 function multiplicationNumbers(number){
     let result = 1;
     for(let i = 1; i <= 7; i++){
@@ -65,11 +65,11 @@ function multiplicationNumbers(number){
 
 const result = multiplicationNumbers(9); 
 console.log(result); 
-*/
+
 //Output: 5040
 
 
-/* 
+
 function factorial(number){
     let result = 1;
     for(let i = 1; i <= number; i++){
@@ -80,11 +80,11 @@ function factorial(number){
 
 const result = factorial(9); 
 console.log(result); 
-*/
+
 //Output: 362880
 
 
-/* 
+ 
 To calculate the factorial in reverse, you can modify the 'for' loop so that it starts from the given number and decrements down to 1. Here's how you can do it:
 */
 
