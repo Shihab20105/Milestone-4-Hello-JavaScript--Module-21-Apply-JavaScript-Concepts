@@ -8,19 +8,19 @@ function factorial(number){
 }
 
 factorial(7); 
-*/
-/* Output:
+
+// Output:
 7
 6
 5
 4
 3
 2
-1 */
+1
 
 
 
-/* 
+ 
 function factorial(number){
     for(let i = number; i >= 1; i--){
         console.log(i);
@@ -28,8 +28,8 @@ function factorial(number){
 }
 
 factorial(9); 
-*/
-/* Output:
+
+// Output:
 9
 8
 7
@@ -38,10 +38,10 @@ factorial(9);
 4
 3
 2
-1 */
+1 
 
 
-/* 
+
 function factorial(number){
     let result = 1;
     for(let i = number; i >= 1; i--){
@@ -53,18 +53,18 @@ function factorial(number){
 
 const fact = factorial(9);
 console.log('Factorial of 9:', fact); 
-*/
-/* Output:
+
+// Output:
 6
 5
 4
 3
 2
 1
-Factorial of 9: 362880 */
+Factorial of 9: 362880 
 
 
-/* 
+ 
 function factorial(number){
     let result = 1;
     for(let i = number; i >= 1; i--){
@@ -77,8 +77,8 @@ function factorial(number){
 const number = 5;
 const fact = factorial(number);
 console.log('Factorial of :', number, fact); 
-*/
-/* Output:
+
+// Output:
 5
 4
 3
